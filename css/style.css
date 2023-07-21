@@ -19,6 +19,7 @@ body {
     color: #434455;
     background-color: #fff;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -30,7 +31,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 
 .link {
@@ -99,8 +100,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
-    
+
+
 }
 
 .header-link {
@@ -111,7 +112,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-list {
@@ -134,7 +136,8 @@ img {
 .header-list-link:focus {
     color: var(--ocean, #404BBF);
 }
-.header-nav{
+
+.header-nav {
     align-items: center;
 }
 
@@ -146,9 +149,9 @@ img {
     display: flex;
     gap: 40px;
     padding: 24px 0;
-    
-    
-    
+
+
+
 }
 
 .address-list-link {
@@ -158,8 +161,8 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-    
+
+
 }
 
 .address-list-link:hover,
@@ -177,9 +180,8 @@ img {
 
 
 }
-.hero-wrap{
-    
-}
+
+.hero-wrap {}
 
 .hero-title {
     color: var(--white, #FFF);
@@ -226,6 +228,7 @@ img {
 .advantages {
     width: 1440px;
     margin: 0 auto;
+    padding: 120px 0;
 
 }
 
@@ -287,6 +290,21 @@ img {
     margin: 0 auto;
 }
 
+.team-item {
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+    img Image · 2,
+    000 x 2,
+    722
+}
+
 .team-list {
     display: flex;
     gap: 24px;
@@ -300,7 +318,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
+
 
 
 }
@@ -316,9 +334,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
-    margin-bottom: 8px;
-    text-align: center;
+
 }
 
 .team-text {
@@ -327,8 +343,6 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    text-align: center;
 }
 
 /* ----------FOOTER---------- */
@@ -440,8 +454,6 @@ body {
     letter-spacing: 0.02em;
     margin-top: 32px;
     padding-left: 16px;
-   
-
 }
 
 .portfolio-subtext {
@@ -453,6 +465,6 @@ body {
     margin-top: 8px;
     padding-left: 16px;
     padding-bottom: 32px;
-    
+
 
 }
